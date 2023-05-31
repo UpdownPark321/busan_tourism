@@ -1,4 +1,4 @@
-# seoul_tourism
+# Busan_tourism
 
 23_1 웹응용프로그래밍 팀프로젝트
 
@@ -26,7 +26,7 @@
 
 - 하단의 git 사용법 참고
 
-4. git clone https://github.com/UpdownPark321/seoul_tourism.git 입력하기
+4. git clone https://github.com/UpdownPark321/Busan_tourism.git 입력하기
 5. terminal 창 중에서 cmd 창으로 들어가 cd seoul_tourism 입력하여 위치를 이동
 6. terminal -cmd 창에서 npm install
 7. terminal - cmd 창에서 npm start
