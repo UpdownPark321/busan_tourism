@@ -34,7 +34,7 @@
 
 프로젝트 terminal에서 'git pull origin master'하고 원격 저장소에 올라온 새 파일들 자기 로컬 저장소에 당겨온 다음에(pull) 작업 시작해야 함!
 
-# Git Bash / GitHub 설치 및 실행
+# Git Bash / GitHub Desktop 설치
 
 - 다음은 프로젝트 실행 단계에서 2번까지 진행 후 terminal에 Git Bash 창이 없을 때 진행한다.
 
