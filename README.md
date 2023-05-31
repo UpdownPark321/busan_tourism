@@ -8,21 +8,21 @@
 
 1. Visual Studio Code 설치
 2. node.js, npm, npx 설치
-3. 로컬에 설치되어 있는지 확인하는 방법
-   컴퓨터 cmd 창에 다음과 같이 입력한다.
-   node -v
-   npm -v
-   npx -v
 
-올바르게 설치 되었을 시 , 위의 명령어 입력하면 버전이 출력되는 것을 확인할 수 있다.
+- 로컬에 설치되어 있는지 확인하는 방법
+  컴퓨터 cmd 창에 다음과 같이 입력한다.
+  올바르게 설치 되었을 시, 설치된 버전이 출력되는 것을 확인할 수 있다.
+  node -v
+  npm -v
+  npx -v
 
 - 이미 설치 되어 있을 시 다음 단계 진행하면 됨
 
 # 프로젝트 실행
 
 1. 프로젝트 폴더 만들기
-2. 폴더에서 Visual Studio Code 열고, terminal 창 열기
-3. terminal 창에서 Git Bash 창 열기
+2. (git이 설치되어 있다는 가정 하에) 폴더에서 Visual Studio Code 열고, terminal 창 열기
+3. (git )terminal 창에서 Git Bash 창 열기
 
 - 하단의 git 사용법 참고
 
