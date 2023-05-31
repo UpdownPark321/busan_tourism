@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './index.css';
+import Information from './components/Information'; 
+import Question from './components/Question'; 
+import Main from './components/Main'; 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+// import busanImg from './project/0.jpg';
+
+const App = () => {
+  const [index, setIndex] = React.useState("main");
+    const onSelect = (event) => {
+      setIndex(event.target.value);
+    }
+
+  return(
+    <div>
+      {/* <img src={busanImg} alt="BusanImg" className='busanImg'/> */}
+      <header className="header">
+        <h1>Busan Tourism</h1>
+        <select  className="select" value={index} onChange={onSelect}>
+          <option value="main">Main Page</option>
+          <option value="0">Information</option>
+          <option value="1">Q & A</option>
+      </select>
       </header>
-    </div>
+      <hr />
+      {index === "main" ? <Main /> : null}
+      {index === "0" ? <Information /> : null}
+      {index === "1" ? <Question /> : null}
+    
+  </div>
   );
 }
 
