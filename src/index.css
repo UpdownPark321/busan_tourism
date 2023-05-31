@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,111 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  text-align: center;
+}
+
+.busanImg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* opacity: 80%; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+.select{
+  background-color:skyblue;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+}
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+.title{
+  color: #fff;
+  text-align: center;
+}
+.chatGpt{
+  border: 0;
+  width: 400px;
+  height: 40px;
+  outline: none; 
+  box-shadow: 1px 1px rgba(45, 45, 45, 0.3);
+  font-size: large;
+  border-radius: 20px;
+}
+.chatGpt:focus,.gptBtn:focus {
+  box-shadow: 1px 2px 4px rgba(45, 45, 45, 0.7);
+}
+.gptBtn{
+  background-color: skyblue;
+  border: 0;
+  height: 50px;
+  width: 50px;
+  box-shadow: 1px 1px rgba(45, 45, 45, 0.3);
+  border-radius: 50%;
+  margin-left: 2%;
+
+}
+
+.content {
+  background-color: #fff;
+  padding: 40px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.tour-spots {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  /* grid-template-columns: 1fr 2fr; */
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.tour-spot {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 1px 2px 4px rgba(45, 45, 45, 0.7);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  height:inherit;
+}
+
+.tour-spot:hover {
+  transform: scale(1.05);
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 10px;
 }
