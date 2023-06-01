@@ -41,8 +41,6 @@
 1. 공식 홈페이지에서 Git Bash 설치 파일 다운로드
    : https://git-scm.com/
 
-1-2. 설치 후 email 작성란이 나오는데, git 가입한 email로 입력하는 것이 좋다.
-
 2. GitHub Desktop 설치
    : https://desktop.github.com/
    ---> 프로젝트 폴더와 연동
