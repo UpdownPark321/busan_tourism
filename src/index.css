@@ -116,3 +116,14 @@ h3 {
 p {
   margin-top: 10px;
 }
+.leftArea {
+  float: left;
+}
+.rightArea {
+  width: 145px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  line-height: 35px;
+}
