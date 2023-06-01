@@ -34,7 +34,7 @@
 
 프로젝트 terminal에서 'git pull origin master'하고 원격 저장소에 올라온 새 파일들 자기 로컬 저장소에 당겨온 다음에(pull) 작업 시작해야 함!
 
-# Git Bash / GitHub Desktop 설치
+# Git Bash / GitHub Desktop 설치 및 실행
 
 - 다음은 프로젝트 실행 단계에서 2번까지 진행 후 terminal에 Git Bash 창이 없을 때 진행한다.
 
@@ -47,4 +47,8 @@
    : https://desktop.github.com/
    ---> 프로젝트 폴더와 연동
 
-3. <프로젝트 실행> 3번으로 돌아가 실행한다.
+3. 설치 작업을 마치고, 'Clone a repository from the internet..'을 실행
+
+4. 본인의 github 계정으로 Sign-in을 하면, 자신의 계정으로 접근 가능한 모든 repository 목록이 나타난다.
+
+5. 프로젝트의 repository를 선택하고, Local Path에 다운로드할 위치를 지정한다.
