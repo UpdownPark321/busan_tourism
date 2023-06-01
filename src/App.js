@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './index.css';
 import Information from './components/Information'; 
-import Question from './components/Question'; 
 import Main from './components/Main';
 import axios from 'axios';
+import Gpt from './Gpt';
 
 // import busanImg from './project/0.jpg';
 
@@ -37,7 +37,7 @@ const App = () => {
       <hr />
       {index === "main" ? <Main /> : null}
       {index === "0" ? <Information data={data}/> : null}
-      {index === "1" ? <Question /> : null}
+      {index === "1" ? <Gpt /> : null}
     
   </div>
   );

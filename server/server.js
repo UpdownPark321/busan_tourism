@@ -10,7 +10,7 @@ const axios = require('axios');
 
 const configuration = new Configuration({
     organization: "org-9NXrWYPCvoUucwgOFCmCPB7o",
-    apiKey: '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',
+    apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 

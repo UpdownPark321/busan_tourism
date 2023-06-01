@@ -18,15 +18,15 @@ function Gpt(props) {
         .then((data) => setResponse(data.message))
     }
     return (
-        <div className='gptArea'>
+        <div className='gptArea' style={{textAlign:"center"}}>
             <h3>궁금한 것이 있다면 GPT에게 질문하세요!</h3>
             <form onSubmit={submit}>
                 <textarea
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
-                    id='gptTextArea'>
+                    className="chatGpt">
                 </textarea>
-                <button type='submit' id='gptSubmitBtn'>질문하기</button>
+                <button type='submit' className="gptBtn">질문하기</button>
             </form>
             <div id='gptResArea'>{response}</div>
         </div>
