@@ -1,0 +1,24 @@
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    float: center;
+    position: relative;
+    left: 20px;
+}
+
+label .password {
+    float: center;
+    position: relative;
+    left: 20px;
+}
+
+button {
+    float : center;
+    width: 100px;
+    left: 50px;
+    position: relative;
+}

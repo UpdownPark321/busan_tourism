@@ -4,6 +4,7 @@ import Information from './components/Information';
 import Main from './components/Main';
 import axios from 'axios';
 import Gpt from './Gpt';
+import Login from './components/Login';
 
 // import busanImg from './project/0.jpg';
 
@@ -30,6 +31,7 @@ const App = () => {
         <h1>Busan Tourism</h1>
         <select  className="select" value={index} onChange={onSelect}>
           <option value="main">Main Page</option>
+          <Login/>
           <option value="0">Information</option>
           <option value="1">Q & A</option>
       </select>
