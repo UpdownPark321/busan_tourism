@@ -41,7 +41,7 @@ const key = 'AyubNIaSXmtsRH6lOKHbuLlh8x6KqA4zoQfyNVcQ1lRTV8IMnkd7MCaUDNGYgEwlAci
 const param = {
     ServiceKey: key,
     pageNo: 1,
-    numOfRows: 10,
+    numOfRows: 12,
     //resultType: json 이녀석 왜 에러나는지 모르겠어서 url에 그냥 추가했습니다
 };
 
