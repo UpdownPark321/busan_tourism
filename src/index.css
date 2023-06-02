@@ -82,9 +82,11 @@ h1 {
   margin-left: 2%;
 
 }
-
+.infoContent{
+  background-color: #000000;
+}
 .content {
-  background-color: #fff;
+  background-color: #000000;
   padding: 40px;
   font-family: 'Helvetica', sans-serif;
   font-size: 18px;
@@ -92,14 +94,19 @@ h1 {
 }
 
 .tour-spots {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
+  /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* grid-template-columns: repeat(3, 2fr); */
   /* grid-template-columns: 1fr 2fr; */
   grid-gap: 20px;
   margin-top: 20px;
 }
 
 .tour-spot {
+  width: 27%;
   background-color: #fff;
   border-radius: 5px;
   padding: 20px;
@@ -107,6 +114,10 @@ h1 {
   transition: transform 0.2s ease-in-out;
   cursor: pointer;
   height:inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tour-spot:hover {
@@ -130,13 +141,11 @@ p {
   margin-top: 10px;
 }
 .leftArea {
-  float: left;
+  /* float: left; */
+  max-width: 90%;
 }
 .rightArea {
-  width: 145px;
-  display: flex;
-  justify-content: center;
+  /* max-width: 90%; */
   text-align: center;
-  align-items: center;
   line-height: 35px;
 }
