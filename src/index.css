@@ -12,16 +12,27 @@ body {
 .App {
   text-align: center;
 }
-
-.busanImg{
+.mainContent{
   width: 100%;
   height: 100%;
-  position: absolute;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.titleBox{
+  margin-right: 5%;
+}
+.busanImg{
+  width: 630px;
+  display: block;
+  /* position: absolute;
   left: 0;
   top: 0;
   right: 0;
-  bottom: 0;
-  z-index: -1;
+  bottom: 0; */
+  /* z-index: -1; */
   /* opacity: 80%; */
 }
 
@@ -33,7 +44,8 @@ header {
   padding: 20px;
 }
 .select{
-  background-color:skyblue;
+  background-color:black;
+  color: white;
   border: none;
   border-radius: 3px;
   font-size: 18px;
@@ -41,11 +53,11 @@ header {
 h1 {
   font-family: 'Helvetica', sans-serif;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: lighter;
   margin: 0;
 }
 .title{
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 .chatGpt{

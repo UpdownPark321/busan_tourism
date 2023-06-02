@@ -5,7 +5,7 @@ import Main from './components/Main';
 import axios from 'axios';
 import Gpt from './Gpt';
 
-// import busanImg from './project/0.jpg';
+
 
 const App = () => {
   const [index, setIndex] = useState("main");
@@ -25,7 +25,6 @@ const App = () => {
 
   return(
     <div>
-      {/* <img src={busanImg} alt="BusanImg" className='busanImg'/> */}
       <header className="header">
         <h1>Busan Tourism</h1>
         <select  className="select" value={index} onChange={onSelect}>
@@ -34,7 +33,7 @@ const App = () => {
           <option value="1">Q & A</option>
       </select>
       </header>
-      <hr />
+     
       {index === "main" ? <Main /> : null}
       {index === "0" ? <Information data={data}/> : null}
       {index === "1" ? <Gpt /> : null}
