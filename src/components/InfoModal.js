@@ -29,7 +29,8 @@ const InfoModal = (props) => {
     };
     return (
         <ReactModal isOpen={showModal} style={customStyles}>
-            <span>{TITLE}</span>
+            <h1>{TITLE}</h1>
+            <span>{INTRODUCE}</span>
             <button onClick={modalClose}>닫기</button>
         </ReactModal>
     );
