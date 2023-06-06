@@ -71,7 +71,6 @@ const Information = (props) => {
 
           showModal = {showModal}
 
-          modalOpen = {modalOpen}
           modalClose = {modalClose}
         />)}
     </div>

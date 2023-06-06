@@ -13,7 +13,6 @@ const InfoModal = (props) => {
         TRAFFICINFO, 
         USAGETIME,
         showModal,
-        modalOpen,
         modalClose 
     } = props
 
