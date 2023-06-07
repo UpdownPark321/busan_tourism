@@ -149,3 +149,19 @@ p {
   text-align: center;
   line-height: 35px;
 }
+.infoTitle {
+  text-align: center;
+  font-weight: 500;
+  background-color: white ;
+  color: black;
+}
+.infoTitle, .infoText{
+  font-family: -apple-system;
+}
+.infoText {
+  /* text-align: center; */
+ 
+}
+.infoBtn {
+
+}

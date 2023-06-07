@@ -22,15 +22,21 @@ const InfoModal = (props) => {
             left: '50%',
             right: 'auto',
             bottom: 'auto',
-            marginRight: '-50%',
+            marginRight: '-30%',
             transform: 'translate(-50%, -50%)',
+            padding: "40px",
+            color: "black",
+            backgroundColor: "white",
+            borderRadius: "20px",
+
         },
+        
     };
     return (
         <ReactModal isOpen={showModal} style={customStyles}>
-            <h1>{TITLE}</h1>
-            <span>{INTRODUCE}</span>
-            <button onClick={modalClose}>닫기</button>
+                <h1 className='infoTitle'>{TITLE}</h1>
+                <div className='infoText'>{INTRODUCE}</div>
+                <button className='infoBtn' onClick={modalClose}>닫기</button>
         </ReactModal>
     );
 };
