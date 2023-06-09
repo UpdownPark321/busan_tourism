@@ -13,13 +13,16 @@ const App = () => {
 
     const onSelect = (event) => {
       setIndex(event.target.value);
-      axios.get("http://localhost:3001/busan")//메뉴 선택 이벤트 수행 시 데이터를 받아옴, Information 컴포넌트에 데이터를 props로 넘겨줌
-      .then((res) => {
-        setData([...res.data.getAttractionKr.item]);
-        console.log(res);
-      }).catch((err) => {
-          console.log(err);
-      })
+      if(event.target.value === '0')
+      {
+        axios.get("http://localhost:3001/busan")//메뉴 선택 이벤트 수행 시 데이터를 받아옴, Information 컴포넌트에 데이터를 props로 넘겨줌
+        .then((res) => {
+          setData([...res.data.getAttractionKr.item]);
+          console.log(res);
+        }).catch((err) => {
+            console.log(err);
+        })
+      }
     }
 
 

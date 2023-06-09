@@ -149,3 +149,13 @@ p {
   text-align: center;
   line-height: 35px;
 }
+.modalIntroArea{
+  background-color: #fff;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px #dadce0;
+}
+.modalHomepage{
+  text-decoration: none;
+  color: blue;
+}
