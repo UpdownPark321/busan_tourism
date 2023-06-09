@@ -37,6 +37,7 @@ const InfoModal = (props) => {
             height: '600px',
             maxWidth:'100%'
         },
+        
     };
     return (
         <ReactModal isOpen={showModal} style={customStyles} onRequestClose={() => modalClose()}>
