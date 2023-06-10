@@ -1,25 +1,14 @@
 import React, { useEffect } from 'react';
-
-const { Kakao } = window;
+import { Map } from 'react-kakao-maps-sdk';
+//npm i react-kakao-maps-sdk 하세요
 
 function Kakaomap() {
-  useEffect(() => {
-    const container = document.getElementById('map');
-    const options = {
-      center: new Kakao.maps.LatLng(33.55321, 126.972613),
-    };
-    const map = new Kakao.maps.Map(container, options);
-  }, []);
 
   return (
     <div>
-      <div
-        id="#map"
-        style={{
-          width: '400px',
-          height: '400px',
-        }}
-      ></div>
+      <Map center={{lat: 33.5563, lng: 126.79581}} style={{ width:'400px', height:'400px'}} level={3}>
+
+      </Map>
     </div>
   );
 }
