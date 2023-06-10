@@ -55,7 +55,6 @@ app.get('/busan', async (req, res) => {
         if (fres.status === 200) {
             const jsonData = fres.data;
             res.json(jsonData);
-            //const data = await axios.get('/' + jsonData);
         } else {
             console.log(fres.statusText);
         }
