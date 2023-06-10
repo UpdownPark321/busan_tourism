@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const LikeButton = () => {
-  const [plusCounter, setPlusCounter] = React.useState(0);
+  const [plusCounter, setPlusCounter] = useState(0);
   const onPlusClick = () => {
     setPlusCounter(plusCounter + 1);
   };

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Map } from 'react-kakao-maps-sdk';
 //npm i react-kakao-maps-sdk 하세요
 

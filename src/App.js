@@ -5,7 +5,6 @@ import Main from './components/Main';
 import axios from 'axios';
 import Gpt from './Gpt';
 import Login from './components/Login';
-import Kakaomap from './components/Kakaomap';
 
 
 const App = () => {
