@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Kakaomap from './components/Kakaomap';
 
 function Gpt(props) {
     const [message, setMessage] = useState('');
@@ -29,6 +30,7 @@ function Gpt(props) {
                 <button type='submit' className="gptBtn">질문하기</button>
             </form>
             <div id='gptResArea'>{response}</div>
+            <Kakaomap/>
         </div>
     );
 }
