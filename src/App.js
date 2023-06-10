@@ -15,7 +15,7 @@ const App = () => {
       setPage(event.target.value);
       if(event.target.value === 'info')
       {
-        axios.get("http://localhost:3001/busan")//메뉴 선택 이벤트 수행 시 데이터를 받아옴, Information 컴포넌트에 데이터를 props로 넘겨줌
+        axios.get("http://localhost:3001/busan")
         .then((res) => {
           setData([...res.data.getAttractionKr.item]);
           console.log(res);
