@@ -159,3 +159,14 @@ p {
   text-decoration: none;
   color: blue;
 }
+.LikeClickContainer{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.likeClick{
+  color: tomato;
+  font-size: x-large;
+}

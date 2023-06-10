@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactModal from 'react-modal';
+import LikeButton from './LikeButton';
 
 const InfoModal = (props) => {
     const {
@@ -41,7 +42,10 @@ const InfoModal = (props) => {
     };
     return (
         <ReactModal isOpen={showModal} style={customStyles} onRequestClose={() => modalClose()}>
-            <h1>{TITLE}</h1>
+            <div style={{display:'flex',flexDirection:"row", justifyContent:"space-between",alignItems:"center"}}>
+                <h1>{TITLE}</h1>
+                <LikeButton />
+            </div>
             <div style={{display:'inline-flex', width:'900px', maxWidth:'100%', justifyContent:'space-between'}}>
                 <div>
                     <img src={MODALIMG} alt={TITLE} style={{width:'300px', height:'270px', marginRight:'30px'}}/>
