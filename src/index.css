@@ -27,13 +27,6 @@ body {
 .busanImg{
   width: 630px;
   display: block;
-  /* position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0; */
-  /* z-index: -1; */
-  /* opacity: 80%; */
 }
 
 header {
@@ -94,13 +87,10 @@ h1 {
 }
 
 .tour-spots {
-  /* display: grid; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* grid-template-columns: repeat(3, 2fr); */
-  /* grid-template-columns: 1fr 2fr; */
   grid-gap: 20px;
   margin-top: 20px;
 }
@@ -141,17 +131,14 @@ p {
   margin-top: 10px;
 }
 .leftArea {
-  /* float: left; */
   max-width: 90%;
 }
 .rightArea {
-  /* max-width: 90%; */
   text-align: center;
   line-height: 35px;
 }
 .modalIntroArea{
   background-color: #fff;
-  /* border: 1px solid black; */
   border-radius: 10px;
   box-shadow: 1px 1px 3px 1px #dadce0;
 }

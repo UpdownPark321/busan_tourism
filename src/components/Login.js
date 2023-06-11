@@ -21,9 +21,9 @@ class Login extends Component {
   loginRequestHandler() {
     let userId;
     let email;
-    if (this.state.username === "박성연" && this.state.password === "1234") {
-      userId = "tjddus";
-      email = "tjddus@naver.com";
+    if (this.state.username === "busan" && this.state.password === "1234") {
+      userId = "busan";
+      email = "busan@naver.com";
       window.confirm(`사용자 정보, 아이디: ${userId}  이메일: ${email}`);
     } else {
       alert("사용자 정보가 틀렸습니다");
