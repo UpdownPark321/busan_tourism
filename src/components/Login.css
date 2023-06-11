@@ -12,7 +12,7 @@ input {
 
 label .password {
     float: center;
-    position: relative;
+    position: absolute;
     left: 20px;
 }
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import busanImg from '../img/1.jpg';
+import Login from "./Login";
+import "./Main.css";
 
 function Main(){
   return(
@@ -10,7 +12,11 @@ function Main(){
     <div className='imgBox'>
       <img src={busanImg} alt="BusanImg" className='busanImg'/>
     </div>
+    <h3
+>　　　　　　　　　　　　
+         <Login/></h3>
   </div>
+  
   );
 }
 

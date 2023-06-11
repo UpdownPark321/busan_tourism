@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import "./Input.css";
 
 class Input extends PureComponent {
+  
   constructor(props) {
     super(props);
     this.setRef = this.setRef.bind(this);
@@ -30,7 +31,6 @@ class Input extends PureComponent {
   render() {
     const { errorMessage, label, name, value, type, onFocus } = this.props;
     return (
-      <nav>
         <label>
           {label}
           <input
@@ -43,27 +43,10 @@ class Input extends PureComponent {
           />
           {errorMessage && <span className="error">{errorMessage}</span>}
         </label>
-      </nav>
+
     );
   }
 }
 
-Input.propTypes = {
-  type: PropTypes.oneOf(["text", "number", "price", "password"]),
-  name: PropTypes.string.isRequired,
-  value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  errorMessage: PropTypes.string,
-  label: PropTypes.string,
-  onChange: PropTypes.func,
-  onFocus: PropTypes.func,
-  autoFocus: PropTypes.bool,
-};
-
-Input.defaultProps = {
-  onChange: () => {},
-  onFocus: () => {},
-  autoFocus: false,
-  type: "text",
-};
 
 export default Input;

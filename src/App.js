@@ -32,7 +32,6 @@ const App = () => {
         <h1>Busan Tourism</h1>
         <select  className="select" value={page} onChange={onSelect}>
           <option value="main">Main Page</option>
-          <Login/>
           <option value="info">Information</option>
           <option value="gpt">Q & A</option>
       </select>

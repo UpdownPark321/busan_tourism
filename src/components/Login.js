@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Input from "./Input";
 import "./Login.css";
+import './Main';
 
 class Login extends Component {
   constructor(props) {
@@ -30,7 +31,15 @@ class Login extends Component {
   }
   render() {
     return (
-      <div>
+      
+      <div
+      style = {{
+        padding: '20px',
+        position : 'absolute',
+        left : '83%',
+        top : '40%',
+      }}>
+        
         <Input
           label="Username"
           name="username"
